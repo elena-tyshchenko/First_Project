@@ -24,7 +24,7 @@ SECRET_KEY = '72pz)f1e)&))(facu3u_jvl2mws8dfsq9-@l^qbs67&jfg*k^y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['127.0.0.1', 'http://elena-tyshchenko.herokuapp.com/']
 STATIC_ROOT = 'static'
 
 # Application definition

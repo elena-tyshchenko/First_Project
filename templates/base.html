@@ -23,8 +23,8 @@
             <ul class="navbar-nav">
                 {% for key, value in departures.items %}
                 <li class="nav-item">
-                    <a class="nav-link {% ifequal active key %}active{% endifequal %}" href="{% url 'departure' key %}">{{
-                        value }} </a>
+                    <a class="nav-link {% ifequal active key %}active{% endifequal %}" href="{% url 'departure' key %}">
+                        {{ value }} </a>
                 </li>
                 {% endfor %}
             </ul>
